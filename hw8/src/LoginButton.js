@@ -1,7 +1,12 @@
+import Button from '@mui/material/Button';
 function LoginButton()
 {
      return(
-          <input type="button" value="SIGN IN"></input>
+          <Button
+              type="submit"
+              width='320px'
+              variant="contained"
+            >SIGN IN</Button>
      );
 }
 export default LoginButton;

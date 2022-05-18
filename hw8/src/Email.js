@@ -5,7 +5,7 @@ function Email()
           <TextField
               margin="normal"
               required
-              fullWidth
+              width='320px'
               name="password"
               label="Password"
               type="password"

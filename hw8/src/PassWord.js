@@ -5,7 +5,7 @@ function PassWord()
           <TextField
               margin="normal"
               required
-              fullWidth
+              width='320px'
               id="email"
               label="Email Address"
               name="email"
