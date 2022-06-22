@@ -59,10 +59,10 @@ class Profile extends Component
 		};
 	}
   componentDidMount()
-{
-	fetch("https://api.github.com/users/cjwu",{method:"GET"})
-	.then(response=>response.json())
-	.then(result=>{
+  {
+    fetch("https://api.github.com/users/cjwu",{method:"GET"})
+	  .then(response=>response.json())
+	  .then(result=>{
 		console.log(result)
 		this.setState({name:result.name})
 		this.setState({id:result.id})
@@ -72,11 +72,11 @@ class Profile extends Component
 		this.setState({created:result.created_at})
 		this.setState({updated:result.updated_at})
     this.setState({blog:result.blog})
-	})
-	.catch(error=>{
+	  })
+	  .catch(error=>{
 		console.log("Error!!!")
-	})
-}
+	  })
+  }
 
   render(){
     return(

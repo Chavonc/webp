@@ -6,7 +6,8 @@ function LoginButton()
               type="submit"
               width='320px'
               variant="contained"
-            >SIGN IN</Button>
+            >Sign In
+          </Button>
      );
 }
 export default LoginButton;
